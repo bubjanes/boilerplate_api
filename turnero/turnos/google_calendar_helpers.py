@@ -13,7 +13,7 @@ from dateutil.parser import parse
 
 logger = logging.getLogger(__name__)
 
-TOKENS = {1: "token_hos1.pkl", 2: "token_hos2.pkl"}
+TOKENS = {1: "token.pkl", 2: "token2.pkl"}
 
 def get_service(hos_id):
     token_file = TOKENS[hos_id]
