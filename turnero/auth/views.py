@@ -23,7 +23,6 @@ auth_user_model = api_auth.model(
 
 users = {
     "": "",
-    "": "",
 }
 
 
