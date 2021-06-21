@@ -1,5 +1,6 @@
-# Flask RestX Google Calendar API
-Documentation at http://localhost:5000
+# Flask RestX with Swagger
+
+This code is a starter pack for building a [Flask RestX](https://flask-restx.readthedocs.io/en/latest/) API with [Swagger](https://swagger.io/). To provide an example of implementation, the code has been configured as a proxy server API to interact with [Google Calendar API](https://developers.google.com/calendar/api/guides/create-events) for appointment scheduling.
 
 ![APIs and Services](images/SwaggerFront.png)
 
@@ -21,7 +22,7 @@ Install dependencies:
 
 ```python3 run.py```
 
-## Initial setup
+## Initial setup if using Google Calendar API setup
 
 ### Step 1
 Following instructions in **calendar_setup.md** to generate a token.pkl file. Place thsi pickle file in the directory **turnero/turno/tokens** .
