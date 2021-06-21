@@ -1,4 +1,4 @@
-# Flask RestX with Swagger
+# Flask RestX API with Swagger
 
 This code is a starter pack for building a [Flask RestX](https://flask-restx.readthedocs.io/en/latest/) API with [Swagger](https://swagger.io/). To provide an example of implementation, the code has been configured as a proxy server API to interact with [Google Calendar API](https://developers.google.com/calendar/api/guides/create-events) for appointment scheduling.
 
